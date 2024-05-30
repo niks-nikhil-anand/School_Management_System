@@ -80,8 +80,8 @@ const Footer = () => {
 
       <div class="border-t text-center border-[#6b5f5f] pt-8 mt-8">
         <p class="text-gray-300 text-[15px]">
-          Copyright © 2023
-          <a href="https://readymadeui.com/" target="_blank" class="hover:underline mx-1">ReadymadeUI</a>
+          Copyright © 2024
+          <a href="https://devtrekker.site/" target="_blank" class="hover:underline mx-1">Nikhil</a>
           All Rights Reserved.
         </p>
       </div>
