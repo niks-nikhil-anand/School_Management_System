@@ -21,6 +21,10 @@ const menuItems = [
     name: 'News Room',
     href: '/blog',
   },
+  {
+    name: 'Our Team',
+    href: '/teams',
+  },
 ]
 
 export function Navbar() {
