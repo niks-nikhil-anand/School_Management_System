@@ -1,5 +1,6 @@
 import React from 'react'
 import { ArrowRight } from 'lucide-react'
+import Link from 'next/link'
 
 export function Sign() {
   return (
@@ -97,13 +98,13 @@ export function Sign() {
             <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl">Sign in</h2>
             <p className="mt-2 text-sm text-gray-600">
               Don&apos;t have an account?{' '}
-              <a
-                href="#"
+              <Link
+                href={"/signUp"}
                 title=""
                 className="font-semibold text-black transition-all duration-200 hover:underline"
               >
                 Create a free account
-              </a>
+              </Link>
             </p>
             <form action="#" method="POST" className="mt-8">
               <div className="space-y-5">
