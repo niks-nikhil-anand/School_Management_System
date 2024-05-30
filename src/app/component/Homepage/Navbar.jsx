@@ -2,19 +2,20 @@
 
 import React from 'react'
 import { Menu, X } from 'lucide-react'
+import Link from 'next/link'
 
 const menuItems = [
   {
     name: 'Home',
-    href: '#',
+    href: '/',
   },
   {
     name: 'About',
-    href: '#',
+    href: '/aboutUs',
   },
   {
     name: 'Contact',
-    href: '#',
+    href: '/contactUs',
   },
 ]
 
@@ -60,12 +61,15 @@ export function Navbar() {
           </ul>
         </div>
         <div className="hidden lg:block">
+          <Link href={"/signIn"}  >
+          
           <button
             type="button"
             className="rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
           >
             Sign In
           </button>
+          </Link>
         </div>
         <div className="lg:hidden">
           <Menu onClick={toggleMenu} className="h-6 w-6 cursor-pointer" />
@@ -90,7 +94,7 @@ export function Navbar() {
                         />
                       </svg>
                     </span>
-                    <span className="font-bold">DevUI</span>
+                    <span className="font-bold">Nikhil</span>
                   </div>
                   <div className="-mr-2">
                     <button
@@ -118,12 +122,15 @@ export function Navbar() {
                     ))}
                   </nav>
                 </div>
+                <Link href={"/signIn"}>
                 <button
                   type="button"
                   className="mt-4 w-full rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                 >
                   Sign In
                 </button>
+                </Link>
+               
               </div>
             </div>
           </div>
