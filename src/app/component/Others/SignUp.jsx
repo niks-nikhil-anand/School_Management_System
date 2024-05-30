@@ -1,7 +1,7 @@
 import React from 'react'
 import { ArrowRight } from 'lucide-react'
 
-export function SignUpOne() {
+export function SignUp() {
   return (
     <section>
       <div className="grid grid-cols-1 lg:grid-cols-2">

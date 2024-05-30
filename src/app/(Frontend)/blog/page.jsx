@@ -118,7 +118,7 @@ const posts = [
   },
 ]
 
-export function BlogPageOne() {
+export default function BlogPageOne() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false)
 
   const toggleMenu = () => {
@@ -199,7 +199,7 @@ export function BlogPageOne() {
                 showing <strong>1</strong> to <strong>10</strong> of <strong>20</strong> results
               </p>
             </div>
-            <div className="space-x-2">
+            <div className="mt-6 flex gap-3">
               <button
                 type="button"
                 className="rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
