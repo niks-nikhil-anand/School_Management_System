@@ -17,6 +17,10 @@ const menuItems = [
     name: 'Contact',
     href: '/contactUs',
   },
+  {
+    name: 'News Room',
+    href: '/blog',
+  },
 ]
 
 export function Navbar() {
