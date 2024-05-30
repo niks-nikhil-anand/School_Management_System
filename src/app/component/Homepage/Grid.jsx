@@ -7,7 +7,7 @@ import { SiGithub, SiTiktok, SiTwitter, SiYoutube } from "react-icons/si";
 
 export const RevealBento = () => {
   return (
-    <div className="min-h-screen bg-zinc-900 px-4 py-12 text-zinc-50">
+    <div className="min-h-screen bg-white px-4 py-12 text-zinc-50">
       <Logo />
       <motion.div
         initial="initial"
@@ -212,7 +212,7 @@ const Footer = () => {
       <p className="text-center text-zinc-400">
         Made with ❤️ by{" "}
         <a href="#" className="text-red-300 hover:underline">
-          @tomisloading
+          @nikhilisloading
         </a>
       </p>
     </footer>
