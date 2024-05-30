@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <div>
-        <footer class="font-sans tracking-wide bg-[#213343] py-10 px-10">
+        <footer class="font-sans tracking-wide bg-zinc-900 py-10 px-10 shadow-lg border-t">
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         <div>
           <h4 class="text-[#FFA726] font-semibold text-lg mb-6">Quick Links</h4>

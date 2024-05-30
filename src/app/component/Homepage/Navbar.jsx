@@ -27,7 +27,7 @@ export function Navbar() {
   }
 
   return (
-    <div className="relative w-full bg-white">
+    <div className="relative w-full bg-zinc-900">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8">
         <div className="inline-flex items-center space-x-2">
           <span>
@@ -44,7 +44,7 @@ export function Navbar() {
               />
             </svg>
           </span>
-          <span className="font-bold">Nikhil</span>
+          <span className="font-bold text-white ">Nikhil</span>
         </div>
         <div className="hidden grow items-start lg:flex">
           <ul className="ml-12 inline-flex space-x-8">
@@ -52,7 +52,7 @@ export function Navbar() {
               <li key={item.name}>
                 <a
                   href={item.href}
-                  className="text-sm font-semibold text-gray-800 hover:text-gray-900"
+                  className="text-sm font-semibold text-white hover:underline"
                 >
                   {item.name}
                 </a>
@@ -65,7 +65,7 @@ export function Navbar() {
           
           <button
             type="button"
-            className="rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+            className="rounded-md bg-indigo-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
           >
             Sign In
           </button>
