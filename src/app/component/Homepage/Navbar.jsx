@@ -18,7 +18,7 @@ const menuItems = [
   },
 ]
 
-export function ExampleNavbarTwo() {
+export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false)
 
   const toggleMenu = () => {
@@ -43,7 +43,7 @@ export function ExampleNavbarTwo() {
               />
             </svg>
           </span>
-          <span className="font-bold">DevUI</span>
+          <span className="font-bold">Nikhil</span>
         </div>
         <div className="hidden grow items-start lg:flex">
           <ul className="ml-12 inline-flex space-x-8">
@@ -64,7 +64,7 @@ export function ExampleNavbarTwo() {
             type="button"
             className="rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
           >
-            Button text
+            Sign In
           </button>
         </div>
         <div className="lg:hidden">
@@ -122,7 +122,7 @@ export function ExampleNavbarTwo() {
                   type="button"
                   className="mt-4 w-full rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                 >
-                  Button text
+                  Sign In
                 </button>
               </div>
             </div>
