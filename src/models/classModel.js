@@ -51,9 +51,18 @@ const classSchema = new mongoose.Schema({
     name: { 
         type: String, 
         required: true, 
-        enum: ['Nursery','LKG' , 'UKG' ,  ,'1st', '2nd', '3rd', '4th', '5th', '6th', '7th', '8th', '9th', '10th', '11th', '12th']
+        enum: ['Nursery','LKG','UKG','1st', '2nd', '3rd', '4th', '5th', '6th', '7th', '8th', '9th', '10th', '11th', '12th']
     },
     subjects: [subjectSchema]  
 });
 
-export default mongoose.models.Class || mongoose.model("Class", classSchema);
+const boardSchema = new mongoose.Schema({
+    name: { 
+        type: String, 
+        required: true, 
+        enum: ['CBSE', 'ICSE','BSEB','Other State Board']
+    },
+    class: [classSchema]  
+});
+
+export default mongoose.models.Board || mongoose.model("Board", boardSchema);

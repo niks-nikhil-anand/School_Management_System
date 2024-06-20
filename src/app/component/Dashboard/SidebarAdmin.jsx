@@ -102,6 +102,41 @@ export function SidebarAdmin() {
               </a>
               
             </div>
+
+
+
+            <div className="space-y-3">
+              <label className="px-3 text-xs font-semibold uppercase text-white">Assets Management</label>
+              <Link
+                className="flex transform items-center rounded-lg px-3 py-2 text-white transition-colors duration-300 hover:bg-gray-700"
+                href={"/dashboard/assets/addCategories"}
+              >
+                 <FaUsersLine className="h-5 w-5" aria-hidden="true" />
+                <span className="mx-2 text-sm font-medium">Add Categories</span>
+              </Link>
+              <a
+                className="flex transform items-center rounded-lg px-3 py-2 text-white transition-colors duration-300 hover:bg-gray-700"
+                href="#"
+              >
+                 <FaCodeBranch className="h-5 w-5" aria-hidden="true" />
+                <span className="mx-2 text-sm font-medium">Add Assets</span>
+              </a>
+              <a
+                className="flex transform items-center rounded-lg px-3 py-2 text-white transition-colors duration-300 hover:bg-gray-700"
+                href="#"
+              >
+                <MdOutlinePeople  className="h-5 w-5" aria-hidden="true" />
+                <span className="mx-2 text-sm font-medium">Fee Remainder</span>
+              </a>
+              <a
+                className="flex transform items-center rounded-lg px-3 py-2 text-white transition-colors duration-300 hover:bg-gray-700"
+                href="#"
+              >
+                <CiShop  className="h-5 w-5" aria-hidden="true" />
+                <span className="mx-2 text-sm font-medium">Fee Details</span>
+              </a>
+              
+            </div>
             
            
             
